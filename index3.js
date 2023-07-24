@@ -1,3 +1,7 @@
-let data = fetch("https://jsonplaceholder.typicode.com/posts");
+fetch("https://jsonplaceholder.typicode.com/posts")
+.then(function(){
+    console.log('Finaliza la carga')
 
-console.log(data)
+})
+
+console.log('Linea 2')
