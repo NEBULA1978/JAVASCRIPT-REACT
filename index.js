@@ -1,4 +1,5 @@
 const user = {
+    // Propiedades property no tiene fuciones
     name: 'Ryan',
     lastname: 30,
     age:20,
@@ -9,7 +10,10 @@ const user = {
     },
     friends:['Brandom','Elena'],
     active: true,
-    sendMail: function(){
+    // Propiedades property no tiene fuciones hacia arriba
+
+    // Metodos con funciones
+    sendMail() {
         return 'sending email ...'
     }
 }
