@@ -1,6 +1,8 @@
 function hello(){
-    return {name: 'Rayan'}
+    return function(){
+        return 'Hola Mundo'
+    }
     
 }
-
-console.log(hello())
+// Llamamos a una funcion y otra
+console.log(hello()())//Hola Mundo
