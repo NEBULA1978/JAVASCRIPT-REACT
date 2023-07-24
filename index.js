@@ -1,5 +1,7 @@
-function start(){
-    return 'starting...0'
-}
+// function start (){
+//     return 'starting...0'
+// }
 
-console.log(start())
+console.log(function start() {
+  return "starting...0";
+}());
