@@ -1,15 +1,5 @@
-const user = {
-    name: 'Joe',
-    age: 30
+function start(){
+    return 'starting...0'
 }
 
-function printInfo(user){
-    const {name,age} = user
-
-    // return "<h1>Hola " + name + "</h1>";
-    return "<h1>Hola " + name + "</h1>";
-}
-
-console.log(printInfo(user))
-
-document.body.innerHTML = printInfo(user)
+console.log(start())
