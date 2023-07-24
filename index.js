@@ -1,10 +1,6 @@
 function hello(){
-    console.log("Hola mundo");
-    console.log("Trabajando JS");
+    return 'Hola mundo'
 
 }
-hello();
-hello();
-hello();
-hello();
-hello();
+const result = hello();
+console.log(result)
