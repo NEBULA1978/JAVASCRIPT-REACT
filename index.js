@@ -1,17 +1,17 @@
 // VOY MINUTO 46
-const background = 'red';
-const color = 'white';
+const background = 'green';
+const color = 'red';
 
-const result = `Esto son estilos ${background} ${color}`;
+// const result = `Esto son estilos ${background} ${color}`;
 
-console.log(result);
+// console.log(result);
 
-const button = document.createElement('button');
-button.innerText = 'Click me';
+const button = document.createElement("button");
+button.innerText = "Click me";
 button.style='background:;color:white';
+button.style = `background: ${background}; color:${color}`
 
-
-const isAutorized = false;
+const isAutorized = true;
 
 button.addEventListener('click', () => {
   if (isAutorized) {
@@ -25,9 +25,9 @@ document.body.append(button);
 
 
 // Corrección de la función arrow que devuelve un objeto
-const showObject = () => ({ name: 'Ryan' });
+// const showObject = () => ({ name: 'Ryan' });
 
-console.log(showObject());
+// console.log(showObject());
 
 
 
