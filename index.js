@@ -1,8 +1,9 @@
 const button = document.createElement('button')
 button.innerText = 'Click me'
 
-button.addEventListener('click', function(){
+function handlerClick(){
     alert('click')
-})
+}
 
 document.body.append(button)
+button.addEventListener("click", handlerClick);
