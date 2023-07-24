@@ -5,3 +5,6 @@ export function multiply(x,y){
     return x * y
 }
 
+export const title = 'Js for React'
+export const active = true
+export const points = [10,20,30]
