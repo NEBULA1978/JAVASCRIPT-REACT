@@ -9,6 +9,11 @@
         
         // SON LO MISMO ARROWS FUNCTIONS
 
+const showText = () => {
+    return 'Hola mundo'
+}
+
+console.log(showText())
 
 const button = document.createElement('button')
 button.innerText = 'Click me'
