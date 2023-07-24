@@ -2,6 +2,6 @@
 //     return 'starting...0'
 // }
 
-console.log(function start() {
+console.log(function () {
   return "starting...0";
 }());
