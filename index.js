@@ -6,6 +6,7 @@ const names = ["Juan", "María", "Pedro"];
 // }
 
 // MISMO RESULTADO QUE ARRIBA CON FOR
-names.forEach(function(name) {
+const newNames = names.map(function(name) {
   console.log(name)
 })
+console.log(newNames)
