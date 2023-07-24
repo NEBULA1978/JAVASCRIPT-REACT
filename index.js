@@ -6,7 +6,7 @@ button.innerText = "click";
 
 // EVENT HANDLERS
 button.addEventListener('click', function(){
-    console.log('Hola mundo')
+    title.innerText = 'Texto actualizado con JS'
 })
 
 document.body.append(title)
