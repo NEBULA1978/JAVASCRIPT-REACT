@@ -2,5 +2,5 @@ function hello(){
     return 'Hola mundo'
 
 }
-const result = hello();
-console.log(result)
+
+console.log(hello())
