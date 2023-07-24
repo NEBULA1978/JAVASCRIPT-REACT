@@ -3,8 +3,9 @@ const user = {
     age: 30
 }
 
-function printInfo(user){
-    return "<h1>Hola " + user["name"] + "</h1>";
+function printInfo({age}){
+    // return "<h1>Hola " + name + "</h1>";
+    return "<h1>Hola " + age + "</h1>";
 }
 
 console.log(printInfo(user))
