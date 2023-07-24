@@ -9,4 +9,4 @@ function printInfo(){
 
 console.log(printInfo(user))
 
-document.body.innerHTML = printInfo(user)
+document.body.innerHTML = `<h2>texto añadido h2</h2>`
