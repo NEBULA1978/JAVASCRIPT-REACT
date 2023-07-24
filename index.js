@@ -14,7 +14,7 @@ const user = {
     }
 }
 
-console.log(user.addres);
+console.log(user.addres.city);
 
 
 // Resultado
