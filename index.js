@@ -9,9 +9,8 @@
         
         // SON LO MISMO ARROWS FUNCTIONS
 
-const showText = () => {
-    return 'Hola mundo'
-}
+const showText = () => 'Hola mundo'
+
 
 console.log(showText())
 
