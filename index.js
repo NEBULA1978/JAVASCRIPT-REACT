@@ -1,5 +1,9 @@
+const background = 'red'
+const color = 'white'
+
 const button = document.createElement('button')
 button.innerText = 'Click me'
+button.style = 'background: red; color :white'
 
 const isAutorized = false
 
