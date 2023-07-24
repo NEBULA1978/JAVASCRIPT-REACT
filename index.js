@@ -1,3 +1,5 @@
+// Ejemplo JS de componente en React
+
 function hello(){
     return function(){
         return 'Hola Mundo'
