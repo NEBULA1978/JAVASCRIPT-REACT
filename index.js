@@ -5,9 +5,9 @@ const isAutorized = false
 
 button.addEventListener('click', () => {
     if (isAutorized) {
-        alert('Estas autorizado')
+        return alert('Estas autorizado')
     } else {
-        alert('No estas autorizado')
+        return alert('No estas autorizado')
     }
 })
 
