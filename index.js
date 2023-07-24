@@ -1,17 +1,18 @@
 // VOY MINUTO 46
 const background = 'green';
-const color = 'red';
+const color = 'white';
+const isAutorized = true;
 
 // const result = `Esto son estilos ${background} ${color}`;
-
 // console.log(result);
+
 
 const button = document.createElement("button");
 button.innerText = "Click me";
 button.style='background:;color:white';
-button.style = `background: ${background}; color:${color}`
+// Si esta autorizado blue sino red
+button.style = `background: ${isAutorized ? 'blue' : 'red'}; color:${color}`
 
-const isAutorized = true;
 
 button.addEventListener('click', () => {
   if (isAutorized) {
