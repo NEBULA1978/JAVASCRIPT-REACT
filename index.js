@@ -5,8 +5,8 @@ const names = ["Juan", "María", "Pedro"];
 //   console.log(element);
 // }
 
-// MISMO RESULTADO QUE ARRIBA CON FOR
+// MISMO RESULTADO QUE ARRIBA CON MAP mantiene arreglo original y crea uno nuevo con cambios
 const newNames = names.map(function(name) {
-  return name
+  return `Hola ${name}`
 })
 console.log(newNames)
