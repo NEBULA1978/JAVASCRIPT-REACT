@@ -4,6 +4,8 @@ button.innerText = 'Click me'
 const isAutorized = false
 
 button.addEventListener('click', () => {
+
+    // return 20
     if (isAutorized) {
         return alert('Estas autorizado')
     } else {
