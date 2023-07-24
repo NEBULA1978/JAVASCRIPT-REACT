@@ -1,6 +1,6 @@
 function hello(){
-    return 'Hola mundo'
-
+    return 20
+    
 }
 
 console.log(hello())
