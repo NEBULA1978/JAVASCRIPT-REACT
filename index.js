@@ -15,6 +15,9 @@ const user = {
 }
 
 console.log(user.addres.city);
+console.log(user.friends);
+console.log(user.active);
+console.log(user.sendMail());
 
 
 // Resultado
