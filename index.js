@@ -1,20 +1,27 @@
-const user = {
-  name:"Fran",
-  lastname:"Fray"
-}
-const address = {
-  stret:"mainstreet list",
-  lastnacityme:"Bogota"
-}
+import {add,multiply} from './add.js'
 
-const userinfo = {
-  ...user,
-  ...address
-}
+console.log(add(10,20))
+console.log(multiply(10, 20));
+// ///////////////////////////
+// ///////////////////////////
 
-console.log(user)
-console.log(address)
-console.log(userinfo)
+// const user = {
+//   name:"Fran",
+//   lastname:"Fray"
+// }
+// const address = {
+//   stret:"mainstreet list",
+//   lastnacityme:"Bogota"
+// }
+
+// const userinfo = {
+//   ...user,
+//   ...address
+// }
+
+// console.log(user)
+// console.log(address)
+// console.log(userinfo)
 
 
 // ///////////////////////////////
