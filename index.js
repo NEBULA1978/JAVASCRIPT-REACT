@@ -1,14 +1,12 @@
-const title = document.createElement('h1')
-title.innerText = 'Hola mundo desde JS'
+const user = {
+    name: 'Joe',
+    age: 30
+}
 
-const button = document.createElement('button')
-button.innerText = "click";
+function printInfo(){
+    return '<h1>Hola ' + user.name + '</h1>'
+}
 
-// EVENT HANDLERS
-button.addEventListener('click', function(){
-    title.innerText = 'Texto actualizado con JS'
-    alert('Se realizo un click')
-})
+console.log(printInfo(user))
 
-document.body.append(title)
-document.body.append(button);
+document.body.innerHTML = printInfo(user)
