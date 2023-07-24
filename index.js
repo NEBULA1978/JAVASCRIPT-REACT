@@ -1,9 +1,39 @@
-const names = ["Juan", "María", "Pedro"];
-const names2 = ["Juan2", "María2", "Pedro2"];
+const user = {
+  name:"Fran",
+  lastname:"Fray"
+}
+const address = {
+  stret:"mainstreet list",
+  lastnacityme:"Bogota"
+}
 
-console.log(names)
-console.log(names2)
-console.log(names.concat(names2))
+const userinfo = {
+  ...user,
+  ...address
+}
+
+console.log(user)
+console.log(address)
+console.log(userinfo)
+
+
+// ///////////////////////////////
+// ///////////////////////////////
+
+// const names = ["Juan", "María", "Pedro"];
+// const names2 = ["Juan2", "María2", "Pedro2"];
+
+// console.log([...names, ...names2])
+
+// ///////////////////////////////
+// ///////////////////////////////
+
+// const names = ["Juan", "María", "Pedro"];
+// const names2 = ["Juan2", "María2", "Pedro2"];
+
+// console.log(names)
+// console.log(names2)
+// console.log(names.concat(names2))
 
 // for (let i = 0; i < nombres.length; i++) {
 //   const element = nombres[i]
