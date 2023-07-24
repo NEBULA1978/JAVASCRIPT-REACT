@@ -3,7 +3,7 @@ const user = {
     age: 30
 }
 
-function printInfo(){
+function printInfo(user){
     return "<h1>Hola " + user["name"] + "</h1>";
 }
 
