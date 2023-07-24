@@ -1,6 +1,6 @@
-import {title} from './add.js'
+import { add } from "./add.js";
 
-console.log(title);
+console.log(add());
 
 
 ////////////////////////////////
