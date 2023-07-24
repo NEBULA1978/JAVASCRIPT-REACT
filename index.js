@@ -1,7 +1,8 @@
-// function start (){
-//     return 'starting...0'
-// }
+const button = document.createElement('button')
+button.innerText = 'Click me'
 
-console.log(function () {
-  return "starting...0";
-}());
+button.addEventListener('click', function(){
+    alert('click')
+})
+
+document.body.append(button)
