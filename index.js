@@ -1,9 +1,48 @@
-// Ejemplo JS de componente en React
-
-function add(x = 23.3, y = 0) {
-
-
-    return x + y
+const user = {
+    name: 'Ryan',
+    lastname: 30,
+    age:20,
+    addres: {
+        country: 'Colombia',
+        city:'Bogota',
+        street: "Main street 123"
+    },
+    friends:['Brandom','Elena'],
+    active: true,
+    sendMail: function(){
+        return 'sending email ...'
+    }
 }
-// Llamamos a una funcion y otra
-console.log(add())//Hola Rayan
+
+console.log(user)
+
+
+// Resultado
+// 20
+// friends
+// : 
+// Array(2)
+// 0
+// : 
+// "Brandom"
+// 1
+// : 
+// "Elena"
+// length
+// : 
+// 2
+// [[Prototype]]
+// : 
+// Array(0)
+// lastname
+// : 
+// 30
+// name
+// : 
+// "Ryan"
+// sendMail
+// : 
+// ƒ ()
+// [[Prototype]]
+// : 
+// Object
