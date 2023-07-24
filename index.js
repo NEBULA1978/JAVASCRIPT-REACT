@@ -6,10 +6,11 @@ const names = ["Juan", "María", "Pedro"];
 // }
 
 // MISMO RESULTADO QUE ARRIBA CON MAP mantiene arreglo original y crea uno nuevo con cambios
-const nameFound = names.find(function (name) {
+const nameFilter = names.filter(function (name) {
   // Sino sale el nombre nos da undefined
-  if (name === "Juan") {
+  if (name !== "Juan") {
     return name;
   }
 });
-console.log(nameFound)
+console.log(nameFilter);//(2) ['María', 'Pedro']
+// Si esta solo muestra el nombre con ===
